@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <nav id="menuPincipal"> 
+            <ul>
+                <li><a href="cascada.html">CASCADA</a></li>
+                <li><a href="laguna.html">LAGUNA DE ZHOGRA</a></li>
+                <li><a href="aerolito.html">AEROLITO</a></li>
+                <li><a href="casa.html">CASA DE LOS TRATADOS</a></li>
+                <li><a href="portete.html">PORTETE DE TARQUI</a></li>   
+                <li><a href="formulario.html"></a>REGISTRATE</li>
+            </ul>
+        </nav>
+        
+         <div id="contenido1">
+            <article>
+                 <h3>Tambien</h3>
+            <p>Con la finalidad de ahorrarle tiempo y agilitar la entrega de la información que usted requiere, antes de enviarnos una consulta por este medio, por favor haga click en la pestaña de Preguntas Frecuentes Es posible que su consulta conste en dicho listado y usted de esa manera recibirá retroalimentación inmediata.</p>
+            </article>
+        
+            <section id="container">
+            <div class="form_register">
+                <h1>Registro Cliente</h1>
+                <hr>
+                <div class="alert"><?php echo isset($alert) ? $alert : ''; ?></div>
+
+                <form action="" method="post">
+                    <label for="nit">Cedula</label>
+                    <input type="number" name="nit" id="correo" placeholder="Numero de Cedula"><br>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo"><br>
+                   
+                    <label for="telefono">Telefono: </label>
+                    <input type="number" name="telefono" id="telefono" placeholder="Telefono"><br>
+                    <label for="direccion">Direccion </label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Direccion Completa"><br>
+                   
+                   
+                    <input type="submit" value="Enviar" class="btn_save"><br>
+                </form>
+            </div>
+        </section>
+        </div>
+        
+         <nav id="pie">
+            <footer >Luis Alfredo Orellana Pulla &#8226; Universidad Politecnica Salesiana &#8226; Correo:
+            <a href="luisorellana31@yahoo.com?subject=EntryForm"> luisorellana31@yahoo.com
+            </a>&#8226; Telf: <a href="tel:+593978722242">0978722242</a> &#8226;
+            &copy; Todos los derechos reservados </footer>
+        </nav>
+    </body>
+</html>

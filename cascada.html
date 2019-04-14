@@ -9,18 +9,25 @@ and open the template in the editor.
         <title>Giron</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estiloBlog.css" rel="stylesheet"/>
+        <link href="css/dosColumnas.css" rel="stylesheet"/>
     </head>
     <body>
-        <header> <img src="images/cascada.jpeg" alt="GIRON">CASCADA EL CHORRO</header>
-        <nav> 
-            <a href="index.html">HOME</a>
-            <a href="laguna.html">LAGUNA DE ZHOGRA</a>
-            <a href="aerolito.html">AEROLITO</a>
-            <a href="casa.html">CASA DE LOS TRATADOS</a>
-            <a href="portete.html">PORTETE DE TARQUI</a>  
+        <header> <img id="principal" src="images/cascada.jpeg" alt="GIRON">CASCADA EL CHORRO</header>
+        
+        <nav id="menuPrincipal"> 
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="laguna.html">LAGUNA DE ZHOGRA</a></li>
+                <li><a href="aerolito.html">AEROLITO</a></li>
+                <li><a href="casa.html">CASA DE LOS TRATADOS</a></li>
+                <li><a href="portete.html">PORTETE DE TARQUI</a></li> 
+            </ul>
+            
         </nav>
         
-        <section><h2>CASCADA</h2>
+        <nav id="contenido">
+         <section><h2>CASCADA</h2>
             <article>
                
                 Para llegar a la primera cascada no necesita ningún esfuerzo físico, puesto que la ruta es de primera clase.
@@ -32,14 +39,6 @@ and open the template in the editor.
                 así que la puede disfrutar cómodamente en la noche y escuchar los encantadores sonidos de la naturaleza en el 
                 silencio de la noche.
                 
-                <h2>Atractivos</h2>
-            <ul>
-                <li><a href="#uno">Cabañas familiares</a></li>
-                <li><a href="#dos">Excursiones</a></li>
-                <li><a href="#tres">Andinismo y Cabalgata</a></li>
-                <li><a href="#cuatro">Parador Turistico</a></li>
-                <li><a href="#cinco">Canopy</a></li>
-            </ul>
                 
             </article>
              <iframe width="560" height="315" src="https://www.youtube.com/embed/UQPCi3LVlbg"  ></iframe>
@@ -102,9 +101,28 @@ and open the template in the editor.
                     han sorteado varios problemas para ejecutar sus ideas.
                 </p>
             
-        </section>
+        </section>   
+        </nav>
         
-        <footer>Luis Alfredo Orellana Pulla &#8226; UPS &#8226; Correo:<a href="luisorellana31@yahoo.com?subject=EntryForm"> luisorellana31@yahoo.com </a>&#8226; Telf: <a href="tel:+593978722242">0978722242</a>  &copy; Todos los derechos reservados </footer>
+        
+        <nav id="lateral">
+         <h2>Atractivos</h2>
+            <ul>
+                <li><a href="#uno">Cabañas familiares</a></li>
+                <li><a href="#dos">Excursiones</a></li>
+                <li><a href="#tres">Andinismo y Cabalgata</a></li>
+                <li><a href="#cuatro">Parador Turistico</a></li>
+                <li><a href="#cinco">Canopy</a></li>
+            </ul>   
+        </nav>
+        
+        
+       <nav id="pie">
+            <footer >Luis Alfredo Orellana Pulla &#8226; Universidad Politecnica Salesiana &#8226; Correo:
+            <a href="luisorellana31@yahoo.com?subject=EntryForm"> luisorellana31@yahoo.com
+            </a>&#8226; Telf: <a href="tel:+593978722242">0978722242</a> &#8226;
+            &copy; Todos los derechos reservados </footer>
+        </nav>
         
     </body>
 </html>

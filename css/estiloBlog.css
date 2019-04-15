@@ -18,9 +18,10 @@ and open the template in the editor.
     height: 400px;
     
 }
-imagen{
-    width: 150px;
-    height: 150px;
+#imagen{
+display:block;
+margin:auto;
+    
     
 }
 
@@ -29,7 +30,7 @@ imagen{
 }
 
 body{
-    background-image: url("../images/cascada.jpeg");
+    background-color: wheat;
    
 }
 a {
@@ -50,4 +51,19 @@ ul, ul li {
     list-style: none; 
     margin-bottom: .5em;
     padding: 5px;
+}
+
+.form_register h1{
+    color: #3c93b0;
+}
+#container{
+    padding: 90px 15px 15px;
+}
+.btn_new{
+    display: inline-block;
+    background: #239baa;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 20px;
 }

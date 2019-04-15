@@ -13,6 +13,7 @@ and open the template in the editor.
     background-color: #FFA726;
     border: 3px red solid;
     padding: 5px 20px 5px 30px;
+    border-radius: 8px;
     float: left;
     text-align: left;
    
@@ -23,6 +24,7 @@ and open the template in the editor.
     background-color: #FFA726;
     margin: 10px;
     padding: 5px 20px 5px 20px;
+    border-radius: 8px;
     border: 3px red solid;
     float: left;
     
@@ -32,6 +34,7 @@ and open the template in the editor.
     width: 100%;
     background-color: #FFA726;
     border: 3px red solid;
+    border-radius: 8px;
     float: left;
     text-align: center;
 }
@@ -41,6 +44,7 @@ and open the template in the editor.
     border-width: thin;
     border-color: black;
     border-style: solid;
+    border-radius: 8px;
     float: left;
     padding-left: 5px;
     padding-right: 5px;

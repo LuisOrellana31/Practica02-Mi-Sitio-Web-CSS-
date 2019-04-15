@@ -47,3 +47,14 @@ and open the template in the editor.
     float: left;
     
 }
+
+#contenido2{
+    width: 40%;
+    background-color: #FFA726;
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+    border: 3px red solid;
+    float: left;
+    
+}
